@@ -1,0 +1,36 @@
+.admin-container {
+  padding: 40px 20px;
+  background: #f4f6f9;
+  min-height: calc(100vh - 60px);
+}
+
+.admin-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.admin-section {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.admin-section h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.admin-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-section li {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+  color: #2c3e50;
+}

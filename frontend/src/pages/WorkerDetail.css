@@ -1,0 +1,84 @@
+.worker-detail-container {
+  min-height: calc(100vh - 60px);
+  background: #f5f6fa;
+  padding: 40px 20px;
+}
+
+.worker-detail-card {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.worker-header-detail h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.service-type {
+  font-size: 20px;
+  color: #667eea;
+  margin: 10px 0;
+}
+
+.location {
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.worker-stats {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.worker-contact {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.worker-contact p {
+  font-size: 16px;
+  color: #2c3e50;
+  margin: 8px 0;
+}
+
+.book-now-btn {
+  width: 100%;
+  padding: 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.book-now-btn:hover {
+  background: #229954;
+}
